@@ -143,7 +143,7 @@ function update(){
     ball.y += ball.velocityY;
     
     // simple AI
-    com.y += ((ball.y - (com.y + com.height/2)))*0.001;
+    com.y += ((ball.y - (com.y + com.height/2)))*0.05;
 
 
     //when ball hits top or bottom of canvas
